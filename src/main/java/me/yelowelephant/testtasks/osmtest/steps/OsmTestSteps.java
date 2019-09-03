@@ -17,7 +17,7 @@ import java.util.List;
 public class OsmTestSteps {
     private HttpRequestExecutor http;
     private OsmQueryFactory osmRequests;
-
+    //#TODO extract to properties
     private final String[] APIPOOL = {"http://overpass-api.de/api/interpreter","http://overpass.osm.rambler.ru/cgi/interpreter", "http://overpass.openstreetmap.fr/api/interpreter"};
     private final Integer RETRIES = 10;
 

@@ -10,6 +10,7 @@ import java.util.List;
 
 public class OsmTest {
 
+    //#TODO extract to properties
     public static final double LAT = 59.93823555;
     public static final double LON = 30.2668659740719;
     public static final int DISTANCE = 400;
